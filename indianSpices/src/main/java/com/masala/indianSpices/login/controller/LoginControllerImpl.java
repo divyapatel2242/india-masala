@@ -16,10 +16,10 @@ public class LoginControllerImpl implements LoginController{
 
     @Override
     public Customer loginInto(LoginCreds loginCreds) {
-        Customer customer = new Customer();
-        customer.setId(34567);
-        customer.setName("Divya");
-        return customer;
+//        Customer customer = new Customer();
+//        customer.setId(34567);
+//        customer.setName("Divya");
+        return null;
     }
 
     @Override
