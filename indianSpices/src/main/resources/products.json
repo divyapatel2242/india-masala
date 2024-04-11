@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "number_of_shards": 1
+  },
+  "mappings": {
+    "properties": {
+      "id": {
+        "type": "int",
+        "index": true
+      },
+      "name": {
+        "type": "keyword",
+        "index": false
+      }
+    }
+  }
+}
